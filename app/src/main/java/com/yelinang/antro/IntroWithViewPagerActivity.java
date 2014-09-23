@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 import com.viewpagerindicator.LinePageIndicator;
+import com.yelinang.antro.transformer.DepthPageTransformer;
 
 public class IntroWithViewPagerActivity extends ActionBarActivity {
 

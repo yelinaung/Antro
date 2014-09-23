@@ -1,4 +1,4 @@
-package com.yelinang.antro;
+package com.yelinang.antro.transformer;
 
 import android.support.v4.view.ViewPager;
 import android.view.View;
@@ -6,6 +6,12 @@ import com.nineoldandroids.view.ViewHelper;
 
 /**
  * Created by Ye Lin Aung on 14/09/23.
+ */
+
+/**
+ * Transformer from
+ * http://developer.android.com/training/animation/screen-slide.html#pagetransformer
+ * With modification with nineoldandroids
  */
 public class ZoomOutPageTransformer implements ViewPager.PageTransformer {
   private static final float MIN_SCALE = 0.85f;

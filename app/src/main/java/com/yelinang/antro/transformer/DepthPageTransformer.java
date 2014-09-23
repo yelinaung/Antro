@@ -1,10 +1,10 @@
-package com.yelinang.antro;
+package com.yelinang.antro.transformer;
 
 import android.view.View;
 import com.nineoldandroids.view.ViewHelper;
 
 /**
- * Created by Ye Lin Aung on 14/09/23.
+ * DepthPageTransformer from https://github.com/ToxicBakery/ViewPagerTransforms
  */
 public class DepthPageTransformer extends ABaseTransformer {
 

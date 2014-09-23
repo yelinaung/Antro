@@ -1,10 +1,10 @@
-package com.yelinang.antro;
+package com.yelinang.antro.transformer;
 
 import android.support.v4.view.ViewPager;
 import android.view.View;
 
 /**
- * Created by Ye Lin Aung on 14/09/23.
+ * Base transformer from https://github.com/ToxicBakery/ViewPagerTransforms
  */
 public abstract class ABaseTransformer implements ViewPager.PageTransformer {
   /**
